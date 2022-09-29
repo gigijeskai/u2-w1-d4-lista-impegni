@@ -12,7 +12,7 @@ let li = document.createElement('li');
 
 li.appendChild(document.createTextNode(inserisciNota.value))
 
-// let collegamento = document.createElement('collegamento')
+let collegamento = document.createElement('collegamento')
 
 li.appendChild(collegamento)
 
