@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lista impegni</title>
-    <link rel="stylesheet" href="./reset/reset.css" />
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="container">
-      <div class="input-container">
-        <h1>Note</h1>
-        <input id="input" type="text" placeholder="Scrivi nota" />
-        <button onclick="" class="add-btn">Aggiungi</button>
+    <div class="container">
+      <div class="card-container">
+        <div class="input-container">
+          <h1>Note</h1>
+          <input type="text" id="input" placeholder="aggiungi una nota" />
+          <button id="input-button">add</button>
+        </div>
+        <div class="note-container">
+          <ul id="lista-note"></ul>
+        </div>
       </div>
-
-      <ul id="lista-note">
-        <li onclick="selezionaElemento()" class="item">fare la spesa</li>
-        <li onclick="selezionaElemento()" class="item">lavare la macchina</li>
-        <li onclick="selezionaElemento()" class="item">portare fuori il cane</li>
-      </ul>
     </div>
     <script src="./script.js"></script>
   </body>
